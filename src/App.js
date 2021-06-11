@@ -1,9 +1,10 @@
 import  Counter from "./Counter";
+import  CounterHooks from "./CounterHooks";
 import  React from "react";
 
 function App() {
   return (
-    <Counter initialCount={0}/>
+    <CounterHooks initialCount={0}/>
      
   )
 }
